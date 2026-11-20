@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+message Temp {
+    required float temp = 1;
+    required Time type = 2;
+}
+
+message Time{
+    required int32 hour = 1;
+    required int32 minute = 2;
+    required int32 second =3;
+}
